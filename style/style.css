@@ -2,14 +2,16 @@
   background: linear-gradient(rgba(100,181,246 ,1), rgba(0,0,0,0.8)), 
               url('https://drive.google.com/thumbnail?id=1lqPCUUHuAYFsYWdENKpKllH_HlbiIjRc&authuser=0&sz=w1349-h667') 0% 0%/cover 
               url('background.jpg') 0% 0%/cover 
+  color: rgba(0,0,0,0.4)
 }
 
 .fill-viewport {
-  min-height: 100vh 
 @@ -9,3 +9,7 @@
 .text-white-70 {
   color: rgba(255,255,255,0.7)
 }
 .text-black-40 {
   color: rgba(0,0,0,0.4)
+.fill-80-viewport {
+  min-height: 80vh
 }
